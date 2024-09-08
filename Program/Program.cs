@@ -13,6 +13,8 @@ void Main()
 {
 
     string[] array1 = new string[4] { "Hello", "2", "world", ":-)" }; //Проверка первого примера
+    // string[] array1 = new string[4] { "1234", "1567", "-2", "computer science" }; //Проверка второго примера
+    // string[] array1 = new string[3] { "Russia", "Denmark", "Kazan" }; // Проверка третьего примера
     string[] array2 = new string[array1.Length];
 
     void CheckArray(string[] array1, string[] array2)
